@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong</title>
+    <link rel="stylesheet" href="/tabler/css/tabler.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+    html,
+    body {
+      margin: 0 auto;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    #game {
+      margin: 10px auto;
+      padding: 10;
+      width: 95%;
+      height: 90%;
+    }
+  </style>
+</head>
+<body class="CustomBackground">
+    <h1 class="text-center mt-3">Pong</h1>
+    <div id="game"></div>
+    <div id="input-form">
+      <input type="text" name="name" placeholder="Nome" />
+    </div>
+    <script src="/phaser/dist/phaser.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/app.js" charset="utf-8"></script>
+    <script src="/js/bootscene.js"></script>
+    <script src="/js/desktopscene.js"></script>
+    <script src="/js/mobilescene.js"></script>
+    <script src="/js/gameoverdesktop.js"></script>
+    <script src="/js/gameovermobile.js"></script>
+    <script src="/js/menuscenedesktop.js"></script>
+    <script src="/js/menuscenemobile.js"></script>
+    <script src="/js/instructionsscene.js"></script>
+    <script src="/js/game.js"></script>
+    <script src="/tabler/js/tabler.min.js"></script>
+    
+</body>
+
+</html>
